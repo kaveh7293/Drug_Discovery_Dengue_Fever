@@ -14,7 +14,6 @@ from deepchem.feat import MolGraphConvFeaturizer
 from deepchem.feat import CircularFingerprint
 from rdkit import Chem
 from rdkit.Chem import Draw
-from rdkit.Chem.Draw import rdMolDraw2D
 from streamlit_ketcher import st_ketcher
 import gzip
 
