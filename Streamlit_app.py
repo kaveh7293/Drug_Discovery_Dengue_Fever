@@ -112,7 +112,7 @@ with open('random_forest_class.pickle', 'rb') as file:
 
 # all_candidates=pd.read_pickle('ALL_Candidates.pkl')
 
-with gzip.open('./chembl_30_chemreps_half.txt.gz', "rt") as file:
+with gzip.open('./chembl_30_chemreps_tenth.txt.gz', "rt") as file:
     # Assuming the file is tab-separated and has headers
     all_candidates = pd.read_csv(file, sep='\t', usecols=['chembl_id', 'canonical_smiles','standard_inchi','standard_inchi_key'])
 
